@@ -1,4 +1,3 @@
-<<<<<<< Updated upstream
 pin_settings:
   mode: "BCM"
 
@@ -11,8 +10,8 @@ motor:
 servo:
   CHANNEL: 12
   direction_constraits:
-    min: 55
-    max: 155
+    min: 45
+    max: 170
     offset: 15
 
 gyroscope:
@@ -22,30 +21,4 @@ BUTTON:
   pin: 4
 
 Camera:
-  noise_threshold: 10
-=======
-pin_settings:
-  mode: "BCM"
-
-motor:
-  pins:
-    IN1: 25
-    IN2: 17
-    ENA: 6
-
-servo:
-  CHANNEL: 12
-  direction_constraits:
-    min: 55
-    max: 155
-    offset: 15
-
-gyroscope:
-  pin: 26
-
-BUTTON:
-  pin: 4
-
-Camera:
-  noise_threshold: 10
->>>>>>> Stashed changes
+  noise_threshold: 1000

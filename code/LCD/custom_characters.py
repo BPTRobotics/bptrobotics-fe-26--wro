@@ -50,11 +50,23 @@ down_arrow = [
     0b00100
 ]
 
+right_arrow = [
+    0b00100,
+    0b01000,
+    0b10000,
+    0b11111,
+    0b10000,
+    0b01000,
+    0b00100,
+    0b00000
+]
+
 
 lcd.create_char(0, rocket_right)
 lcd.create_char(1, dust)
 lcd.create_char(2, up_arrow)
 lcd.create_char(3, down_arrow)
+lcd.create_char(4, right_arrow)
 
 def clear_screen():
     lcd_driver.write_line(' ' * 16, line=0)  
@@ -89,3 +101,7 @@ def up_arrow():
 def down_arrow():
     lcd.cursor_pos = (1, 15)
     lcd.write_string(chr(3))
+
+def right_arrow():
+    lcd.cursor_pos = (1, 15)
+    lcd.write_string(chr(4))

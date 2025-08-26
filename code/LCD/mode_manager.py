@@ -1,5 +1,5 @@
 from threading import Thread, Event
-from .custom_characters import rocket_fly_async, up_arrow, down_arrow, clear_screen
+from .custom_characters import rocket_fly_async, up_arrow, down_arrow, right_arrow, clear_screen
 from .lcd_driver import write_line
 
 stop_event = Event()
@@ -29,3 +29,7 @@ def set_mode(mode):
         safe_stop_lodading_thread()
         clear_screen()
         write_line("PAUSED")
+    elif mode == 5:
+        safe_stop_lodading_thread()
+        clear_screen()
+        right_arrow()

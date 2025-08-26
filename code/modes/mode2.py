@@ -9,9 +9,9 @@ def start():
     gyroscope.INITIAL_DIRECTION.value += 90 *  _detect_direction.DIRECTION.value
     pitch_difference = 999
 
-    motor.set_speed(1)
+    motor.set_speed(.75)
     motor.backward()
-    while abs(pitch_difference or 3) > 3:
+    while abs(pitch_difference or 10) > 10:
         wait_for_button_press()
         pitch_difference = keep_direction()
         if pitch_difference is not None:
