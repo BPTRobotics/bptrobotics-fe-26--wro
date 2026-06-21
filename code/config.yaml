@@ -19,6 +19,3 @@ gyroscope:
 
 BUTTON:
   pin: 4
-
-Camera:
-  noise_threshold: 1000

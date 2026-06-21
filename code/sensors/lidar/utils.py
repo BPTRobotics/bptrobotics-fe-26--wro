@@ -26,8 +26,8 @@ def test_master() -> bool:
 def start_master():
     global process
     process = subprocess.Popen(
-        ['roslaunch', 'ydlidar_ros_driver', 'lidar_view.launch'],
-        cwd='/home/rpi/ydlidar_ws/src/ydlidar_ros_driver/launch',
+        ['roslaunch', 'ydlidar_ros_driver', 'X4.launch'],
+        cwd='/home/ubuntu/ydlidar_ws/src/ydlidar_ros_driver/launch',
         stdout=subprocess.DEVNULL,  # or subprocess.PIPE if you want to read output
         stderr=subprocess.DEVNULL
     )

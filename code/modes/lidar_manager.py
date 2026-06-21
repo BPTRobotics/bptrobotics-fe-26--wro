@@ -8,7 +8,7 @@ def callback(__msg):
     msg = __msg
 
 LOG = True
-LOG_FILE = "/home/rpi/WRO/log.txt"
+LOG_FILE = "/home/ubuntu/log.txt"
 
 if LOG:
     from atexit import register as areg

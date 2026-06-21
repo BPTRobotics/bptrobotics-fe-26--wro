@@ -24,7 +24,7 @@ signal.signal(signal.SIGTERM, signal_handler)
 
 try:
     LCD.set_mode(0)
-    modes.obstacle_manager.start()
+    modes.open_manager.start()
 except Exception:
     import traceback
     traceback.print_exc()
