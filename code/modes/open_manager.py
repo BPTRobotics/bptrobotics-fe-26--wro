@@ -1,9 +1,5 @@
-def start(ROUNDS = 3):
-    from ..sensors import gyroscope
+def start(ROUNDS=3):
     from . import mode1, detect_direction, mode2, lidar_manager
-    gyroscope.calibrate()
-    gyroscope.INITIAL_DIRECTION.value = gyroscope.get_safe_pitch()
-
 
     mode1()
     detect_direction()
@@ -12,5 +8,5 @@ def start(ROUNDS = 3):
         mode1()
         mode2()
 
-        print(rnd,"round has succesfully completed. 🚩")
+        print(rnd, "round has successfully completed. \U0001F6A9")
     mode1(lidar_manager.START_DISTANCE.value)
