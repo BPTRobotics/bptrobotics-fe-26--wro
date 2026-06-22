@@ -1,5 +1,3 @@
-<<<<<<< Updated upstream
-
 # BPT Robotics – Engineering Documentation 
 
 
@@ -24,7 +22,7 @@ Peti is a master of mechanical design and structural engineering, ensuring a sta
 Tibi is an expert in precision electronics connections, ensuring that all hardware components communicate seamlessly and receive the proper power supply.
 Our robot performed well in the Hungarian qualifiers, and thanks to this, we qualified for the 2025 WRO competition in Slovenia. Our goal is to present a technological solution that shows that anything can be achieved with a small team and limited resources. Although the Hungarian round did not start absolutely smoothly, we managed to make it to Slovenia. Gathering our experience from the competition, we rethought the entire robot and redesigned it in less than 3 months. Our motivation is to create a better world for our future children and grandchildren, so that we can participate in such big events of robotics at a young age.
 
-![Team photo](https://github.com/BPTRobotics/BPTrobotics-Ljubjana-2025/blob/main/img/Team/Very%20very%20Serious%20Team%20Photo.jpg)
+![Team photo](./img/Team/Very%20very%20Serious%20Team%20Photo.jpg)
 
 ## 2. The task
 The challenge for the WRO Future Engineers category is to develop a fully autonomous robot that can navigate a changing obstacle course without human intervention. The robot:
@@ -35,7 +33,7 @@ you need to reach your destination via the shortest and most efficient route pos
 This task is a mechanical, electronic and software development challenge at the same time, as the robot has to process and react to complex data in real time. Another challenge during the preparation was that the robot had to be within a certain limit (300 x 200 x 300 mm) and could not exceed a weight limit of 1.5 kg. We started the work after a thorough planning. Initially, we thought about the structure and operation of the robot based on the experience gained so far. Later, Boldizsár started to do the programming part and integrate the software with the appropriate operating system. Initially, he did the Open challenge, refined it, and developed it, and when it worked perfectly, he supplemented it with the Obstacle challenge. After a lot of testing, our robot was created.
 
 
-![Robot photo](https://github.com/BPTRobotics/BPTrobotics-Ljubjana-2025/blob/main/img/robots/Robot%20Casual%20(6).jpg)
+![Robot photo](./img/robots/Robot%20Casual%20(6).jpg)
 
 ## 3. Robot concept
 Our robot is a four-wheeled, back-wheel drive, back-wheel steering platform that we designed to be stable, modular, and easy to repair.
@@ -53,10 +51,10 @@ Therefore, the main control unit is a Raspberry Pi 4 4GB model B, which runs the
 The core of the concept is the modular structure: any component can be quickly replaced, and the frame design allows for later expansions (for example, installing more powerful motors or new sensors).
 
 
-![Team photo](https://github.com/BPTRobotics/BPTrobotics-Ljubjana-2025/blob/main/img/robots/Robot%20Casual%20(4).jpg)![Team photo](https://github.com/BPTRobotics/BPTrobotics-Ljubjana-2025/blob/main/img/robots/Robot%20Casual%20(3).jpg)
+![Team photo](./img/robots/Robot%20Casual%20(4).jpg)![Team photo](./img/robots/Robot%20Casual%20(3).jpg)
 
 ## 4. Hardware details
-![Circuit photo](https://github.com/BPTRobotics/BPTrobotics-Ljubjana-2025/blob/main/img/else/Untitled%20(1).jpg)
+![Circuit photo](./img/else/Untitled%20(1).jpg)
 | Component             | Function                                                       | Comment                  | Justification                                                                 |
 |-----------------------|----------------------------------------------------------------|--------------------------|-------------------------------------------------------------------------------|
 | Raspberry Pi 4 (4GB)  | Central control, data processing                               | Running Python code      | It's proven, it works well, although it's a bit slow, so we plan to switch to Pi5 next year. |
@@ -70,21 +68,21 @@ The core of the concept is the modular structure: any component can be quickly r
 
 ## 5. Software architecture
 
-![Sensor circuit photo](https://github.com/BPTRobotics/BPTrobotics-Ljubjana-2025/blob/main/img/else/Untitled%20(3).jpg)
+![Sensor circuit photo](./img/else/Untitled%20(3).jpg)
 Our developer decided to try a new approach into the sensor combination, which he called the **"module system"**, where he splits the software into different modules.
 
 For example, when  the robot starts, it uses the lidar for navigation of distances and gyroscope to ensure the full forward direction he calls this state **"module 1"**. Then, when the robot approaches a corner, and needs to change its direction, then it turns off the lidar (since there's no need for that), and turns by only the data of the gyroscope. That state is called **"module 2"**. Then it changes between these modules.
 
 ### **Modules:**
-![OPEN CHALLENGE](https://github.com/BPTRobotics/BPTrobotics-Ljubjana-2025/blob/main/img/else/Sprint%20Planning%20-%20OPEN.jpg)
-![OBSTACLE CHALLENGE](https://github.com/BPTRobotics/BPTrobotics-Ljubjana-2025/blob/main/img/else/Sprint%20Planning%20-%20OBSTACLE.jpg)
+![OPEN CHALLENGE](./img/else/Sprint%20Planning%20-%20OPEN.jpg)
+![OBSTACLE CHALLENGE](./img/else/Sprint%20Planning%20-%20OBSTACLE.jpg)
 
 ##### **OPEN CHALLENGE's modules:**
-![Module 1](https://github.com/BPTRobotics/BPTrobotics-Ljubjana-2025/blob/main/img/else/Sprint%20Planning%20-%20Module%201.jpg)
-![Nodule 2](https://github.com/BPTRobotics/BPTrobotics-Ljubjana-2025/blob/main/img/else/Sprint%20Planning%20-%20Module%202.jpg)
+![Module 1](./img/else/Sprint%20Planning%20-%20Module%201.jpg)
+![Nodule 2](./img/else/Sprint%20Planning%20-%20Module%202.jpg)
 ##### **OBSTACLE CHALLENGE's modules:**
-![Module 3](https://github.com/BPTRobotics/BPTrobotics-Ljubjana-2025/blob/main/img/else/Sprint%20Planning%20-%20Module%203.jpg)
-![Module 4](https://github.com/BPTRobotics/BPTrobotics-Ljubjana-2025/blob/main/img/else/Sprint%20Planning%20-%20Module%203.jpg)
+![Module 3](./img/else/Sprint%20Planning%20-%20Module%203.jpg)
+![Module 4](./img/else/Sprint%20Planning%20-%20Module%203.jpg)
 <sub>
 ```
 read LIDAR distance
@@ -108,7 +106,7 @@ correct direction with gyro
 ### **Download the repository**
 **Clone the repository:**
 `bash
-git clone https://github.com/BPTRobotics/BPTRobotics-Ljubjana-2025.git
+git clone https://github.com/BPTRobotics/bptrobotics-fe-26--wro.git
 cd BPTrobotics-Ljubjana-2025`
 
 **Download dependencies:**
@@ -179,100 +177,5 @@ Better and longer battery capacity with less weight. Although it can withstand a
 | oter               | (shipping costs, customs, other)                                   |        20 000 Ft | 1 pcs  |        20 000 Ft |                                                                                                                                                                                                                                                                 |             |
 =======
 
-# BPT Robotics – Ljubljana 2025
-
-Ez a projekt a **BPT Robotics** 2025-ös ljubljanai versenyére készült robotrendszer teljes kódját és dokumentációját tartalmazza.  
-A rendszer **Ubuntu 20.04.5 Server** operációs rendszeren fut, Raspberry Pi és egyéb perifériák segítségével.
-
----
-
-## 📌 Áttekintés
-
-Ez a robot önálló navigációs képességekkel, érzékelőintegrációval és versenyre optimalizált vezérlési logikával rendelkezik.  
-A projekt célja, hogy gyorsan telepíthető és karbantartható legyen, valamint biztosítsa a stabil teljesítményt a versenyhelyzetekben.
-
-**Főbb jellemzők:**
-- Raspberry Pi alapú vezérlés
-- Lidar-alapú térérzékelés
-- Több modulból álló kódstruktúra (navigáció, érzékelők, motorvezérlés)
-- Könnyen telepíthető és futtatható
-
----
-
-## 🛠 Hardverkövetelmények
-
-- Raspberry Pi (Bookworm vagy újabb támogatással)
-- **YDLidar X4 Pro** érzékelő
-- Motorvezérlő modul(ok)
-- 3D nyomtatott alkatrészek
-- Egyéb szenzorok a feladatnak megfelelően
-
----
-
-## 🚀 Telepítés és futtatás
-
-1. Klónozd a repót:
-   ```bash
-   git clone https://github.com/BPTRobotics/BPTrobotics-Ljubjana-2025.git
-   cd BPTrobotics-Ljubjana-2025
-
-
-2. Függőségek telepítése:
-
-   ```bash
-   sudo apt update && sudo apt upgrade -y
-   sudo apt install python3 python3-pip
-   pip3 install -r requirements.txt
-   ```
-
-3. A robot futtatása:
-
-   ```bash
-   python3 main.py
-   ```
-
----
-
-## 🖥 Operációs rendszer kompatibilitás
-
-✅ Teljes mértékben kompatibilis **Ubuntu 20.04.5 Server** verzióval.
-
----
-
-## 📊 Rendszerfolyamat
-
-![Untitled](https://github.com/user-attachments/assets/b90f29bd-58c5-48f3-bd24-31660947c774)
-
-
----
-
-## 📄 YDLidar X4 Pro – Raspberry Pi Bookworm beállítás
-
-A Raspberry Pi Bookworm OS-ben a `/dev/ttyUSB0` eszköz automatikusan csatlakozik a `dialout` és `plugdev` csoportokhoz.
-Ezért szükséges hozzáadni a felhasználót ezekhez a csoportokhoz:
-
-```bash
-sudo usermod -aG dialout $USER
-sudo usermod -aG plugdev $USER
-```
-
-Majd újraindítani a rendszert, vagy kijelentkezni és vissza.
-
-A **YDLidar SDK** telepítéséhez:
-
-```bash
-sudo apt install cmake pkg-config
-git clone https://github.com/YDLIDAR/YDLidar-SDK.git
-cd YDLidar-SDK
-mkdir build && cd build
-cmake ..
-make
-sudo make install
-```
-
-Tesztelés:
-
-```bash
-ydlidar_test
 ```
 >>>>>>> Stashed changes
