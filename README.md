@@ -23,4 +23,8 @@ grandchildren, and to participate in the most significant international robotics
 young age. It is no secret that all three of us wish to pursue careers in robotics and work
 within this field in the future.
 
-![Team photo](https://github.com/BPTRobotics/BPTrobotics-Ljubjana-2025/blob/main/img/Team/Very%20very%20Serious%20Team%20Photo.jpg)
+###**Competitions**
+* [Hungarian competition (2026)](./hungary_2026)
+* [Slovenian competition (2026)](./slovenia_2026)
+
+![Team photo](./slovenia_2026/img/Team/Very%20very%20Serious%20Team%20Photo.jpg)
