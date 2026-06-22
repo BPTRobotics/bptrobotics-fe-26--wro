@@ -1,0 +1,32 @@
+name: Cleanup Pycache
+
+on:
+  push:
+    branches:
+      - main
+  workflow_dispatch:  # allows manual run
+
+jobs:
+  cleanup:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+
+      - name: Delete __pycache__ folders
+        run: |
+          echo "Removing __pycache__ folders..."
+          find . -type d -name "__pycache__" -exec rm -rf {} +
+
+      - name: Commit changes
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add -A
+          if git diff --cached --quiet; then
+            echo "No changes to commit."
+          else
+            git commit -m "chore: remove __pycache__ folders"
+            git push
+          fi

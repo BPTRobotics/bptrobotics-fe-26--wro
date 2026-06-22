@@ -1,0 +1,21 @@
+pin_settings:
+  mode: "BCM"
+
+motor:
+  pins:
+    IN1: 25
+    IN2: 17
+    ENA: 6
+
+servo:
+  CHANNEL: 12
+  direction_constraits:
+    min: 45
+    max: 170
+    offset: 15
+
+gyroscope:
+  pin: 26
+
+BUTTON:
+  pin: 4
