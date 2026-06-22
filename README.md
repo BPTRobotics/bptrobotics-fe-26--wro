@@ -25,6 +25,6 @@ within this field in the future.
 
 ###**Competitions**
 * [Hungarian competition (2026)](./hungary_2026)
-* [Slovenian competition (2026)](./slovenia_2026)
+* [Slovenian competition (2025)](./slovenia_2025)
 
 ![Team photo](./slovenia_2026/img/Team/Very%20very%20Serious%20Team%20Photo.jpg)
