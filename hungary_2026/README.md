@@ -35,7 +35,7 @@ Challenge.
 Following numerous testing and development cycles, the final robot configuration was
 completed.
 
-![Robot photo](https://github.com/BPTRobotics/BPTrobotics-Ljubjana-2025/blob/main/img/robots/Robot%20Casual%20(6).jpg)
+![Robot photo](./img/robots/Robot%20Casual%20(6).jpg)
 
 ## 3. Robot concept
 Our robot is a four-wheeled, rear-wheel-drive, and rear-wheel-steering platform designed
@@ -60,10 +60,10 @@ any component can be quickly replaced, and the chassis architecture allows for f
 upgrades, such as installing higher-performance motors or new sensors.
 
 
-![Team photo](https://github.com/BPTRobotics/BPTrobotics-Ljubjana-2025/blob/main/img/robots/Robot%20Casual%20(4).jpg)![Team photo](https://github.com/BPTRobotics/BPTrobotics-Ljubjana-2025/blob/main/img/robots/Robot%20Casual%20(3).jpg)
+![Team photo](./img/robots/Robot%20Casual%20(4).jpg)![Team photo](./img/robots/Robot%20Casual%20(3).jpg)
 
 ## 4. Hardware details
-![Circuit photo](https://github.com/BPTRobotics/BPTrobotics-Ljubjana-2025/blob/main/img/else/Untitled%20(1).jpg)
+![Circuit photo](./img/else/Untitled%20(1).jpg)
 | Component             | Function                                                       | Comment                  | Justification                                                                 |
 |-----------------------|----------------------------------------------------------------|--------------------------|-------------------------------------------------------------------------------|
 | Raspberry Pi 4 (4GB)  | Central control, data processing                               | Running Python code      |A reliable and proven solution, though its performance is becoming a limiting factor, so we plan to upgrade to a aspberry Pi 5 in the future. |
@@ -77,7 +77,7 @@ upgrades, such as installing higher-performance motors or new sensors.
 
 ## 5. Software architecture
 
-![Sensor circuit photo](https://github.com/BPTRobotics/BPTrobotics-Ljubjana-2025/blob/main/img/else/Untitled%20(3).jpg)
+![Sensor circuit photo](./img/else/Untitled%20(3).jpg)
 
 Our developer implemented an innovative approach to utilize multiple sensors collectively, which he named the "module system." Its core principle is that the control software processes sensor data by breaking it down into distinct operational states.
 
@@ -86,15 +86,15 @@ When the robot reaches a turn, the LIDAR is temporarily sidelined, and the turn 
 The robot continuously and dynamically switches between individual modules during operation.
 
 ### **Modules:**
-![OPEN CHALLENGE](https://github.com/BPTRobotics/BPTrobotics-Ljubjana-2025/blob/main/img/else/Sprint%20Planning%20-%20OPEN.jpg)
-![OBSTACLE CHALLENGE](https://github.com/BPTRobotics/BPTrobotics-Ljubjana-2025/blob/main/img/else/Sprint%20Planning%20-%20OBSTACLE.jpg)
+![OPEN CHALLENGE](./img/else/Sprint%20Planning%20-%20OPEN.jpg)
+![OBSTACLE CHALLENGE](./img/else/Sprint%20Planning%20-%20OBSTACLE.jpg)
 
 ##### **OPEN CHALLENGE's modules:**
-![Module 1](https://github.com/BPTRobotics/BPTrobotics-Ljubjana-2025/blob/main/img/else/Sprint%20Planning%20-%20Module%201.jpg)
-![Nodule 2](https://github.com/BPTRobotics/BPTrobotics-Ljubjana-2025/blob/main/img/else/Sprint%20Planning%20-%20Module%202.jpg)
+![Module 1](./img/else/Sprint%20Planning%20-%20Module%201.jpg)
+![Nodule 2](./img/else/Sprint%20Planning%20-%20Module%202.jpg)
 ##### **OBSTACLE CHALLENGE's modules:**
-![Module 3](https://github.com/BPTRobotics/BPTrobotics-Ljubjana-2025/blob/main/img/else/Sprint%20Planning%20-%20Module%203.jpg)
-![Module 4](https://github.com/BPTRobotics/BPTrobotics-Ljubjana-2025/blob/main/img/else/Sprint%20Planning%20-%20Module%203.jpg)
+![Module 3](./img/else/Sprint%20Planning%20-%20Module%203.jpg)
+![Module 4](./img/else/Sprint%20Planning%20-%20Module%203.jpg)
 <sub>
 
 **Open Challenge Modules**
@@ -123,7 +123,7 @@ If no obstacle is detected, it continues forward in a straight line, using the g
 **Running the Project**
 Cloning the Repository
 ```
-git clone https://github.com/bptrobotics/bptrobotics-fe-26--wro.git
+git clone https://github.com/BPTRobotics/bptrobotics-fe-26--wro.git
 cd bptrobotics-Ljubjana-2025
 ```
 
