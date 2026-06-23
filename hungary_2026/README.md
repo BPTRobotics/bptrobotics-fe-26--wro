@@ -7,9 +7,9 @@
 - **Péter Márkus** *- mechanical design, assembly, 3D printing and prototyping, electronic design*
 - **Tibor Bogar** - *electronics, cabling*
 
-**Country:** Hungary
-**Category:** WRO Future Engineers
-**Competition location:** Győr, Hungary
+**Country:** Hungary<br>
+**Category:** WRO Future Engineers<br>
+**Competition location:** Győr, Hungary<br>
 **Date:** June 26–27, 2026
 
 ## 2. The task
