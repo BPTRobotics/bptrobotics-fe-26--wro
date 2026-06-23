@@ -15,15 +15,6 @@ WRO Future Engineers – Slovenia 2025
 **Date:** 2025, 2 - 5 of September
 
 
-## 1. Team introduction
-BPT Robotics is a young robotics team of three, born from a passion for technology, robotics and innovation. We all bring different strengths to the work together:
-Boldizsár is the controller of programming logic and artificial intelligence, who builds the robot's brain.
-Peti is a master of mechanical design and structural engineering, ensuring a stable and reliable frame, from CAD designs to 3D printed elements.
-Tibi is an expert in precision electronics connections, ensuring that all hardware components communicate seamlessly and receive the proper power supply.
-Our robot performed well in the Hungarian qualifiers, and thanks to this, we qualified for the 2025 WRO competition in Slovenia. Our goal is to present a technological solution that shows that anything can be achieved with a small team and limited resources. Although the Hungarian round did not start absolutely smoothly, we managed to make it to Slovenia. Gathering our experience from the competition, we rethought the entire robot and redesigned it in less than 3 months. Our motivation is to create a better world for our future children and grandchildren, so that we can participate in such big events of robotics at a young age.
-
-![Team photo](./img/Team/Very%20very%20Serious%20Team%20Photo.jpg)
-
 ## 2. The task
 The challenge for the WRO Future Engineers category is to develop a fully autonomous robot that can navigate a changing obstacle course without human intervention. The robot:
 must independently explore their environment,
