@@ -23,7 +23,7 @@ grandchildren, and to participate in the most significant international robotics
 young age. It is no secret that all three of us wish to pursue careers in robotics and work
 within this field in the future.
 
-###**Competitions**
+### **Competitions**
 * [Hungarian competition (2026)](./hungary_2026)
 * [Slovenian competition (2025)](./slovenia_2025)
 
