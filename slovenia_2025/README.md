@@ -9,9 +9,9 @@ WRO Future Engineers – Slovenia 2025
 - **Péter Márkus** *- mechanical design, assembly, 3D printing and prototyping, electronic design*
 - **Tibor Bogar** - *electronics, cabling*
 
-**Country:** Hungary••
-**Category:** WRO Future Engineers••
-**Competition location:** Slovenia, Ljubljana••
+**Country:** Hungary ••
+**Category:** WRO Future Engineers ••
+**Competition location:** Slovenia, Ljubljana ••
 **Date:** 2025, 2 - 5 of September
 
 
