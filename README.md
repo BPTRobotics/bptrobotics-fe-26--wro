@@ -24,7 +24,8 @@ young age. It is no secret that all three of us wish to pursue careers in roboti
 within this field in the future.
 
 ### **Competitions**
-* [Hungarian competition (2026)](./hungary_2026)
 * [Slovenian competition (2025)](./slovenia_2025)
+* [Hungarian competition (2026)](./hungary_2026)
+
 
 ![Team photo](./team_photo.jpg)
